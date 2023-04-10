@@ -2,7 +2,6 @@ import React from 'react';
 import html from "../images/html.png";
 import css from "../images/css.png";
 import javascript from "../images/javascript.png";
-// import home from "../images/invoice.png";
 import home from "../images/dev.svg";
 import bootstrap from "../images/bootstrap.png";
 import git from "../images/git.png";
