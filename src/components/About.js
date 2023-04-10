@@ -9,7 +9,7 @@ import github from "../images/github.png";
 import tailwind from "../images/tailwind.svg";
 import sass from "../images/sass.png";
 import jquery from "../images/jquery.png";
-import act from "../images/act.png";
+import reactjs from "../images/act.png";
 import { FaHandPointRight } from "react-icons/fa";
 
 function About() {
@@ -38,7 +38,7 @@ function About() {
            <img src={html} class=" object-contain mt-5 w-[60px] h-[60px] shadow-xl rounded-lg" alt="" />
            <img src={css} class=" object-contain mt-5 w-[60px] h-[60px] shadow-lg rounded-lg" alt="" />
            <img src={javascript} class=" object-contain mt-5 w-[60px] h-[60px] shadow-lg rounded-lg" alt="" />
-           <img src={act} class=" object-contain mt-5 w-[60px] h-[60px] shadow-lg rounded-lg" alt="" />
+           <img src={reactjs} class=" object-contain mt-5 w-[60px] h-[60px] shadow-lg rounded-lg" alt="" />
            <img src={jquery} class=" object-contain mt-5 w-[60px] h-[60px] shadow-lg rounded-lg" alt="" />
            <img src={tailwind} class=" object-contain mt-5 w-[60px] h-[60px] shadow-lg rounded-lg" alt="" />
            <img src={bootstrap} class=" object-contain mt-5 w-[60px] h-[60px] shadow-lg rounded-lg" alt="" />
