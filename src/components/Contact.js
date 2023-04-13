@@ -13,15 +13,15 @@ function Contact() {
             <form class="space-y-3" action="https://getform.io/f/aaf072fa-bd1a-465e-a94d-c9c172429fe8" method="POST" novalidate="" Name="space-y-6 ng-untouched ng-pristine ng-valid">
                 <div>
                     <label for="name" >Full name</label>
-                    <input id="name" name="name" type="text" placeholder="" className="w-full p-3 rounded dark:bg-gray-800"/>
+                    <input id="name" name="name" type="text" required className="w-full p-3 rounded"/>
                 </div>
                 <div>
                     <label for="email" >Email</label>
-                    <input id="email" name="email" type="email" className="w-full p-3 rounded dark:bg-gray-800" />
+                    <input id="email" name="email" type="email" required className="w-full p-3 rounded" />
                 </div>
                 <div>
                     <label for="message" >Message</label>
-                    <textarea id="message" name="message" rows="3" class="w-full p-3 rounded dark:bg-gray-800" spellcheck="false"></textarea>
+                    <textarea id="message" name="message" rows="3" required class="w-full p-3 rounded"></textarea>
                 </div>
                 <button type="submit" class="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-cyan-900 text-white">Send Message</button>
             </form>
