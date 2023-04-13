@@ -1,6 +1,5 @@
 body{
- background-image: linear-gradient(to right, #fa709a 0%, #fee140 105%);
-/* background: linear-gradient(90deg,#141520,#201418);*/
+  background-image: linear-gradient(to right, #faa499 8%, #f7dd85 80%, #ffc55c 100%);
 }
 
 .wave {
