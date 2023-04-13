@@ -9,7 +9,7 @@ function Home() {
     	<section class=" w-full">
     		<div class="flex items-center flex-col md:flex-row justify-around pt-20 md:pt-12 container mx-auto px-4">
 				<div class="text-cyan-900">
-					<h2 class="md:text-4xl text-3xl">Hii, There! <span class="wave">👋🏻</span></h2>
+					<h2 class="md:text-4xl text-3xl">Hii, There! </h2>
 					<h2 class="md:text-4xl text-3xl pt-3">I'M Abhay Sharma</h2>
 					<h2 class="md:text-4xl text-3xl animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-white">Front End Developer</h2>
 					<div class="pt-4">
