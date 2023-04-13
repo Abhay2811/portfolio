@@ -15,7 +15,7 @@ import { FaHandPointRight } from "react-icons/fa";
 function About() {
 	return (
     	<section>
-        <div class="flex flex-col md:flex-row justify-around pt-12 container  mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-around pt-12 container shadow-lg rounded-lg mx-auto px-4">
           <div class="mt-5">
             <h2 class="text-3xl pb-6 font-bold text-cyan-900">Know Who I'M</h2>
             <p class="text-lg text-gray-600">I am Abhay Sharma from Himachal Pradesh, India.

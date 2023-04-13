@@ -6,7 +6,6 @@
 
   li {
     @apply pr-8;
-    @apply cursor-pointer
   }
 
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import home from "../images/dev.svg";
 import home from "../images/homepage.svg";
 
 
@@ -19,7 +18,6 @@ function Home() {
 							<li class=""><Link to="https://www.linkedin.com/in/abhay-sharma-77a756260/" class="text-4xl hover:text-white"><FaLinkedin /></Link></li>
 							<li><Link to="https://github.com/Abhay2811" class="text-4xl hover:text-white"><FaGithub /></Link></li>
 							<li><Link to="https://www.instagram.com/_abhaysharma__/" class="text-4xl hover:text-white"><FaInstagram /></Link></li>
-							<li><Link to="https://www.instagram.com/_abhaysharma__/" class="text-4xl hover:text-white"><FaLinkedin /></Link></li>
 						</ul>
 					</div>
 				</div>
