@@ -14,7 +14,7 @@ function Projects() {
 	<div class=" py-16 container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
   	<div class="mb-12 space-y-2 text-center">
       	<h2 class="text-2xl text-cyan-900 font-bold md:text-4xl">My Recent Works</h2>
-      	<p class="lg:w-6/12 lg:mx-auto">Here are projects I've worked on.</p>
+      	<p class="lg:w-6/12 lg:mx-auto"> Here are projects I've worked on.</p>
     	</div>
     	<div class="grid gap-12 lg:grid-cols-2">
 

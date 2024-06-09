@@ -23,7 +23,7 @@ function About() {
           <h2 class="text-3xl pb-6 font-bold text-cyan-900">About Me</h2>
           <p class="text-lg text-gray-600">I am Abhay Sharma from Himachal Pradesh, India.
             I have a Bachelor's and
-            Master's <br />degree in Computer Applications.
+            Master's <br />degree in Computer Applications. 
           </p>
           <p class="text-lg text-gray-600">Front-End Developer with expertise in cross-platform development
             using Javascript.<br />Curious to learn more about developing scalable distribution systems, love problem solving, and care about writing and maintainable code. 
