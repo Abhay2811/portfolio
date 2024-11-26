@@ -1,5 +1,5 @@
 import React from 'react';
-import abhay from "../images/Abhay_Resume.pdf";
+import abhay from "../images/Abhay_Frontend.pdf";
 import home from "../images/resume.svg"
 
 function Resume() {
