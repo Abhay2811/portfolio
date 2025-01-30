@@ -8,6 +8,8 @@ import weather from "../images/weather.png";
 import portfolio from "../images/portfolio.png";
 import timeless from "../images/timeless.png";
 import nolo from "../images/nolo.png";
+import brains from "../images/brainsmedia.png";
+
 
 function Projects() {
 	return (
@@ -141,7 +143,7 @@ function Projects() {
               			For form submission data i have used getform.io plateform in contact page.</p>
                 
             			</div>
-            			<a href="https://abhay-port-folio.netlify.app/" target="_blank" rel="noreferrer" class="block w-max text-cyan-600">Visit Site</a>
+            			<a href="https://abhayshowcase.netlify.app/" target="_blank" rel="noreferrer" class="block w-max text-cyan-600">Visit Site</a>
           		</div>
         		</div>
      		</div>
@@ -151,13 +153,29 @@ function Projects() {
           		<div class="space-y-2">
             			<div class="">
               			<h3 class="text-2xl font-semibold text-cyan-900">Wather App</h3>
-              			<p class="text-gray-600 pt-3">Wather App is created by using (openweathermap api) Real-Time Weather Data.
-              			I've created this app with pure html and js, 
-              			The functionaity added in this app is user can
-              			check the current and next 24 hour's weather update by using city name or Location.</p>
+              			<p class="text-gray-600 pt-3">Weather App is built using WeatherAPI for real-time weather data.
+              			It is created with pure HTML and JavaScript. Users can check the current weather, 
+              			the next 24-hour forecast, and a 2-day weather update by entering a city name or using their location.</p>
                 
             			</div>
-            			<a href="https://weather-status-app.netlify.app/" target="_blank" rel="noreferrer" class="block w-max text-cyan-600">Visit Site</a>
+            			<a href="https://cloudwatcher.netlify.app/" target="_blank" rel="noreferrer" class="block w-max text-cyan-600">Visit Site</a>
+          		</div>
+        		</div>
+     		</div>
+
+     		<div class=" rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+        		<img src={brains} alt="art cover" loading="lazy" class="h-auto w-full sm:w-5/12  rounded-lg" />
+        		<div class="sm:w-7/12 pl-0 p-5">
+          		<div class="space-y-2">
+            			<div class="">
+              			<h3 class="text-2xl font-semibold text-cyan-900">Brains Media</h3>
+              			<p class="text-gray-600 pt-3">Brains Media is a website built using WordPress and Elementor, 
+              			 offering media-related content and services.</p>
+                
+            			</div>
+            			<p class=" pt-2 font-bold">Tech Stack:</p>
+          				<p class="text-gray-600">HTML, CSS, Js and WP</p>
+            			<a href="https://brainsnet.netlify.app/" target="_blank" rel="noreferrer" class="block w-max text-cyan-600">Visit Site</a>
           		</div>
         		</div>
      		</div>
