@@ -7,7 +7,7 @@ import cellwork from "../images/cellwork.jpg";
 import weather from "../images/weather.png";
 import portfolio from "../images/portfolio.png";
 import timeless from "../images/timeless.png";
-import nolo from "../images/nolo.png";
+import prowess from "../images/prowess.png";
 import brains from "../images/brainsmedia.png";
 
 
@@ -20,7 +20,7 @@ function Projects() {
     	</div>
     	<div class="grid gap-12 lg:grid-cols-2">
 
-        <div class=" rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+        <div class="project-img rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
     		<img src={timeless} alt="art cover" loading="lazy" class="h-56 sm:h-full w-full sm:w-5/12  rounded-lg" />
     		<div class="sm:w-7/12 pl-0 p-5">
       		<div class="space-y-2">
@@ -38,27 +38,26 @@ function Projects() {
     		</div>
      	</div>
 
-     	<div class=" rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
-    		<img src={nolo} alt="art cover" loading="lazy" class="h-56 sm:h-full w-full sm:w-5/12  rounded-lg" />
+     	<div class="project-img rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+    		<img src={prowess} alt="art cover" loading="lazy" class="h-56 sm:h-full w-full sm:w-5/12  rounded-lg" />
     		<div class="sm:w-7/12 pl-0 p-5">
       		<div class="space-y-2">
     			<div class="">
-      			<h3 class="text-2xl font-semibold text-cyan-900">Nolo</h3>
+      			<h3 class="text-2xl font-semibold text-cyan-900">Prowess Advisors</h3>
       			<p class="text-gray-600 pt-3">
-      			NOLO specializes in a variety of non-alcoholic beverages, including spirits, wines, and ready-to-drink options.
-      			 The brand offers sophisticated alcohol-free alternatives
-      			 suitable for various occasions.
+      			Prowess Advisors offers specialized Investment Banking and Consulting services 
+      			focused on the food and agriculture sectors.
       			</p>
 
   				 <p class=" pt-2 font-bold">Tech Stack:</p>
-  				<p class="text-gray-600">HTML, CSS, Jquery, Woocommerce and Wordpress</p>
+  				<p class="text-gray-600">HTML, CSS, Jquery and Wordpress</p>
     			</div>
-    			<a href="https://zeroguess.us/n10/nolo/" target="_blank" rel="noreferrer" class="block w-max text-cyan-600">Visit Site</a>
+    			<a href="https://prowessadvisors.com/" target="_blank" rel="noreferrer" class="block w-max text-cyan-600">Visit Site</a>
       		</div>
     		</div>
      	</div>
 
-      	<div class=" rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+      	<div class="project-img rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
         		<img src={account} alt="art cover" loading="lazy" class="h-56 sm:h-full w-full sm:w-5/12  rounded-lg" />
         		<div class="sm:w-7/12 pl-0 p-5">
           		<div class="space-y-2">
@@ -75,7 +74,7 @@ function Projects() {
           		</div>
         		</div>
      		</div>
-     	     			<div class="rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+     	     			<div class=" project-img rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
         		<img src={scifi} alt="art cover" loading="lazy" width="1000" height="667" class="h-56 sm:h-full w-full sm:w-5/12  rounded-lg transition duration-500 group-hover:rounded-xl" />
         		<div class="sm:w-7/12 pl-0 p-5">
           		<div class="space-y-2">
@@ -91,7 +90,7 @@ function Projects() {
           		</div>
         		</div>
      		</div>
-     			<div class="rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+     			<div class=" project-img rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
         		<img src={cellwork} alt="art cover" loading="lazy"  class="h-56 sm:h-full w-full sm:w-5/12  rounded-lg transition duration-500 group-hover:rounded-xl" />
         		<div class="sm:w-7/12 pl-0 p-5">
           		<div class="space-y-2">
@@ -107,7 +106,7 @@ function Projects() {
           		</div>
         		</div>
      		</div>
-      	<div class=" rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+      	<div class="project-img rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
         		<img src={cinqio} alt="art cover" loading="lazy" class="h-56 sm:h-full w-full sm:w-5/12  rounded-lg" />
         		<div class="sm:w-7/12 pl-0 p-5">
           		<div class="space-y-2">
@@ -133,7 +132,7 @@ function Projects() {
 		</div>
 
 		<div class="grid gap-12 lg:grid-cols-2">
-      	<div class=" rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+      	<div class="project-img rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
         		<img src={portfolio} alt="art cover" loading="lazy" class="h-auto w-full sm:w-5/12  rounded-lg" />
         		<div class="sm:w-7/12 pl-0 p-5">
           		<div class="space-y-2">
@@ -147,7 +146,7 @@ function Projects() {
           		</div>
         		</div>
      		</div>
-     		<div class=" rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+     		<div class="project-img rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
         		<img src={weather} alt="art cover" loading="lazy" class="h-auto w-full sm:w-5/12  rounded-lg" />
         		<div class="sm:w-7/12 pl-0 p-5">
           		<div class="space-y-2">
@@ -163,7 +162,7 @@ function Projects() {
         		</div>
      		</div>
 
-     		<div class=" rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
+     		<div class="project-img rounded-xl group sm:flex space-x-6 bg-white bg-opacity-50 shadow-xl hover:rounded-2xl">
         		<img src={brains} alt="art cover" loading="lazy" class="h-auto w-full sm:w-5/12  rounded-lg" />
         		<div class="sm:w-7/12 pl-0 p-5">
           		<div class="space-y-2">
