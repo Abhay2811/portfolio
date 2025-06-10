@@ -15,8 +15,8 @@ function Home() {
 				<div class="pt-4">
 					<p class="text-2xl md:text-3xl">Find Me On</p>
 					<ul class="flex pt-3">
-						<li class=""><Link to="https://www.linkedin.com/in/abhay-sharma-77a756260/" target="_blank" rel="noreferrer" class="text-4xl hover:text-white"><FaLinkedin /></Link></li>
-						<li><Link to="https://github.com/Abhay2811" target="_blank" rel="noreferrer" class="text-4xl hover:text-white"><FaGithub /></Link></li>
+						<li class=""><Link to="https://www.linkedin.com/in/abhaysharma25" target="_blank" rel="noreferrer" class="text-4xl hover:text-white"><FaLinkedin /></Link></li>
+						<li><Link to="https://github.com/abhaysharma25" target="_blank" rel="noreferrer" class="text-4xl hover:text-white"><FaGithub /></Link></li>
 						<li><Link to="https://www.instagram.com/_abhaysharma__/" target="_blank" rel="noreferrer" class="text-4xl hover:text-white"><FaInstagram /></Link></li>
 					</ul>
 				</div>
